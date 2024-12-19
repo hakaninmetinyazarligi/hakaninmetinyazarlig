@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakan'ın Metin Yazarlığı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #ff8c00, #ffa500);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: #ffa500;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            margin: 2rem;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hakan'ın Metin Yazarlığı Hizmetleri</h1>
+        <p>Profesyonel ve yaratıcı metinlerle işinizi büyütün!</p>
+    </header>
+
+    <nav>
+        <a href="#services">Hizmetler</a>
+        <a href="#about">Hakkımda</a>
+        <a href="#contact">İletişim</a>
+    </nav>
+
+    <section id="services">
+        <h2>Hizmetler</h2>
+        <ul>
+            <li>SEO Uyumlu Blog Yazıları</li>
+            <li>Ürün Açıklamaları</li>
+            <li>Reklam Metinleri</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>Hakkımda</h2>
+        <p>Ben Hakan, profesyonel bir metin yazarıyım. İçerik ihtiyaçlarınız için buradayım!</p>
+    </section>
+
+    <section id="contact">
+        <h2>İletişim</h2>
+        <p>Bize ulaşmak için aşağıdaki e-postayı kullanabilirsiniz:</p>
+        <p>Email: <a href="mailto:hakan@example.com">hakan@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hakan'ın Metin Yazarlığı</p>
+    </footer>
+</body>
+</html>
